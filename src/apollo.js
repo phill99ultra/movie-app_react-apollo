@@ -1,7 +1,7 @@
 import { ApolloClient, InMemoryCache } from "@apollo/client";
 
 const client = new ApolloClient({
-    uri: 'https://mysterious-ridge-30740.herokuapp.com/',
+    uri: 'https://movie-gql-server.herokuapp.com/',
     cache: new InMemoryCache(),
     resolvers: {
         Movie: {
